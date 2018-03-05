@@ -1,0 +1,234 @@
+body{
+background-color:white;
+
+}
+
+header{
+
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid palevioletred;
+    transform: none;
+
+}
+
+header h1{
+font-family: cursive;
+color: lightgrey;
+font-size: 2em;
+display: block;
+margin: 0 auto;
+ text-align: center;
+
+
+}
+header .imgBack{
+height:0 auto;
+width:50%;
+display: block;
+margin: 0 auto;
+padding-top: 10px;
+}
+
+.imgBack{
+
+    border-radius: 120px;
+}
+
+#City{
+width:0 auto;
+background-color: white;
+}
+
+h2 ,h3,h4{
+    font-family: cursive;
+    color:palevioletred;
+    font-size: 1.1em;
+    display: block;
+
+
+}
+section .cityImg{
+    height:0 auto;
+    width:50%;
+    display: block;
+    padding-right: 5px;
+    }
+    .cityImg{
+
+        border-radius: 20px;
+
+    }
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+
+th, td {
+    text-align: left;
+
+    padding: 8px;
+}
+th{
+  color: grey;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/*boxes*/
+          #GoodHope, #churchSquare{
+            padding-top: 10px;
+                padding-bottom: 17px;
+          /*  padding-left: 1px;
+            margin-right: 5px;
+            margin-bottom: 2px;*/
+
+            }
+
+         #Castle,#Church{
+
+              float:left;
+width:50%;
+display: block;
+margin:1px;
+
+padding-top: 10px;
+              }
+
+              .box{
+
+    padding-left: 1px;
+    margin-right: 1px;
+
+              }
+
+
+
+/* Desktop       10000  720 */
+@media only screen and (min-width:464px){
+.container{
+width: 80%;
+margin:0 auto;
+padding-top:5px;
+
+}
+header{
+     padding-bottom: 4px;
+    border-bottom: 1px solid palevioletred;
+}
+/*.row {
+
+
+ width: 20%;
+ display: block;
+}*/
+
+
+header .imgBack{
+
+    width:200px;
+
+    padding-top: 10px;
+    overflow: hidden;
+    }
+    h2 ,h3,h4{
+        font-size: 1.2em;
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 10px;
+
+    }
+
+    #City{
+padding-bottom: 15px;
+
+    }
+    section .cityImg{
+
+        width:20%;
+        margin-left: 5px;
+   padding-top: 5px;
+        padding-left: 10px;
+        }
+
+      #Castle,#Church{
+    /*  padding-left:2%;*/
+      width:25%;
+}
+
+
+#GoodHope{
+margin-right: 3px;
+
+float: left;
+}
+
+
+
+#historicalPlace .box p {
+float: left;
+width: 13%;
+padding: 5px;
+
+}
+#historicalPlace .box img{
+margin-bottom: 2px;
+margin-left: 4px;
+width: 18%;
+
+}
+
+#City .row img  {
+    float: left;
+    margin-bottom: 2px;
+    margin-left: 18%;
+    width: 18%;
+}
+ /*#city .box p{
+float:left;
+width: 10%;
+padding: 5px;
+border-radius: 1px solid black;
+ }*/
+ .row p {
+    padding-left: 20px;
+   width: 35%;
+   display: block;
+text-align: center;
+}
+.row p{
+
+    float: left;
+}
+
+.box :after{
+content: " ";
+display: table;
+clear: both;
+
+}
+
+/*
+.box p{
+
+    width: inherit;
+}*/
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+}
