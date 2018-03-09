@@ -6,7 +6,7 @@ background-color:white;
 header{
 
     background-color: white;
-    height: 200px;
+    height: 240px;
     width: 100%;
     border-bottom: 1px solid palevioletred;
     transform: none;
@@ -25,10 +25,13 @@ margin: 0 auto;
 }
 header .imgBack{
 height:0 auto;
-width:50%;
+width:40%;
 display: block;
-margin: 0 auto;
+/* margin: 0 auto; */
+margin-left: 120px;
+margin-bottom: 5px;
 padding-top: 10px;
+padding-left: 5px;
 }
 
 .imgBack{
@@ -80,54 +83,12 @@ th{
 
 tr:nth-child(even) {background-color: #f2f2f2;}
 
-/*boxes*/
-          #GoodHope, #churchSquare ,#Slavelodge{
-            padding-top: 10px;
-                padding-bottom: 10px;
-                width:auto;
 
-          /*  padding-left: 1px;
-            margin-right: 5px;
-            margin-bottom: 2px;*/
 
-            }
 
-         #Castle,#church,#slave_lodge{
 
-              float:left;
-width:200px;
-display: block;
-margin:1px;
 
-padding-top: 10px;
-padding-right: 2px;
-              }
 
-              .box{
-
-    padding-left: 1px;
-    margin-right: 1px;
-
-              }
-              .Place p{
-
-             float: left;
-
-              width: 200px;
-              padding-top: 10px;
-              padding-left: 10px;
-              }
-              .box :after{
-              content: " ";
-              display: table;
-              clear: both;
-
-              }
-              .foat-img{
-               padding-left: 2px;
-               margin: 3px;
-               overflow: hidden;
-              }
 
 
 
@@ -155,10 +116,16 @@ header{
 
 header .imgBack{
 
-    width:200px;
+    width:180px;
 
-    padding-top: 10px;
+    padding-top: 3px;
     overflow: hidden;
+
+    }
+
+    header h1{
+   padding-bottom: 15px;
+
     }
     h2 ,h3,h4{
         font-size: 1.2em;
@@ -184,11 +151,41 @@ padding-bottom: 15px;
 
   width: 200px;
 }
+.Historical{
+
+  width: 30.33%;
+  float: left;
+  overflow: hidden;
+}
+.Historical img{
+  float: left;
+  padding: 5px;
+  margin: 4px;
+  overflow: hidden;
+}
+
+.BoxHistorical{
+
+  position: relative;
+  width: 100%;
+
+}
+.BoxHistorical{
+
+  overflow: hidden;
+}
+.BoxHistorical p{
+margin: 0;
+margin-left: 0;
+padding-top: 5px;
+padding-left: 12px;
+text-align: justify;
 
 
+}
 
-      #Castle,#church,#slave_lodge{
-    /*  padding-left:2%;*/
+      /* #Castle,#church,#slave_lodge{
+
       width:200px;
       margin-top: -5px;
       padding-left: 2px;
@@ -201,8 +198,8 @@ padding-bottom: 15px;
 margin-right: 3px;
 
 float: left;
-}
-.Place{
+} */
+/* .Place{
 vertical-align: top;
 display: inline-block;
 width: 28%;
@@ -210,16 +207,16 @@ padding-top: 10px;
 padding-left: 10px;
 
    overflow: hidden;
-}
+} */
 
 
-.foat-img{
+/* .foat-img{
     float:left;
     margin-top: 10px;
     margin-right: 10px;
    padding-right: 10px;
     overflow: hidden;
-}
+} */
 h3{
 text-align: left;
 
